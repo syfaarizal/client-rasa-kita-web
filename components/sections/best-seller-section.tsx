@@ -61,10 +61,10 @@ export function BestSellerSection() {
               prevEl: prevRef.current,
               nextEl: nextRef.current,
             }}
-            className="!px-1 !py-2"
+            className="px-1! py-2!"
           >
             {bestSellers.map((product, index) => (
-              <SwiperSlide key={product.id} className="!h-auto">
+              <SwiperSlide key={product.id} className="h-auto!">
                 <ProductCard product={product} index={index} />
               </SwiperSlide>
             ))}

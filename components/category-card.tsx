@@ -30,7 +30,7 @@ export function CategoryCard({ category, index = 0 }: CategoryCardProps) {
       transition={{ duration: 0.45, delay: index * 0.08 }}
       className="group flex flex-col overflow-hidden rounded-xl border border-border bg-white shadow-soft transition-shadow duration-300 hover:shadow-card"
     >
-      <div className="relative aspect-[4/3] overflow-hidden">
+      <div className="relative aspect-4/3 overflow-hidden">
         <Image
           src={category.image}
           alt={category.name}

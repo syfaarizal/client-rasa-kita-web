@@ -47,10 +47,10 @@ export function TestimonialsSection() {
             swiper.params.navigation.nextEl = nextRef.current;
           }}
           navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
-          className="!px-1 !py-2"
+          className="px-1! py-2!"
         >
           {testimonials.map((testimonial) => (
-            <SwiperSlide key={testimonial.id} className="!h-auto">
+            <SwiperSlide key={testimonial.id} className="h-auto!">
               <div className="flex h-full flex-col gap-4 rounded-2xl border border-border bg-white p-6 shadow-soft">
                 <Quote className="h-6 w-6 text-primary" aria-hidden="true" />
                 <StarRating rating={testimonial.rating} />

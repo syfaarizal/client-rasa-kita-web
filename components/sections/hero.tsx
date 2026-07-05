@@ -16,7 +16,7 @@ const iconMap: Record<string, LucideIcon> = {
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-primary-light via-cream to-cream">
+    <section className="relative overflow-hidden bg-linear-to-br from-primary-light via-cream to-cream">
       <div className="container-app grid grid-cols-1 items-center gap-10 py-14 sm:py-20 lg:grid-cols-2 lg:gap-16">
         <motion.div
           initial={{ opacity: 0, x: -24 }}
@@ -38,7 +38,7 @@ export function Hero() {
               <Link href="/products">Belanja Sekarang</Link>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <Link href="/products">Lihat Semua Produk</Link>
+              <Link href="/contact">Hubungi Kami</Link>
             </Button>
           </div>
 

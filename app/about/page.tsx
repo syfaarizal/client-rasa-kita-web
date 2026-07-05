@@ -56,7 +56,7 @@ export default function AboutPage() {
             kualitas bahan.
           </p>
         </div>
-        <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-card">
+        <div className="relative aspect-4/3 overflow-hidden rounded-3xl shadow-card">
           <Image src="/images/about-hero.jpg" alt="Dapur RasaKita" fill className="object-cover" />
         </div>
       </div>
