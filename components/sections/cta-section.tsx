@@ -8,7 +8,7 @@ import { company } from "@/data/company";
 
 export function CtaSection() {
   return (
-    <section className="container-app pb-14 sm:pb-20" aria-label="Ajakan pesan sekarang">
+    <section className="container-app py-14 sm:py-10" aria-label="Ajakan pesan sekarang">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -26,7 +26,7 @@ export function CtaSection() {
           <Button asChild size="lg">
             <Link href="/products">Pesan Sekarang</Link>
           </Button>
-          <Button asChild size="lg" variant="outline" className="border-white/30 text-white hover:text-secondary">
+          <Button asChild size="lg" variant="outline" className="border-white/30 text-white hover:text-orange-300">
             <Link href={`https://wa.me/${company.whatsapp}`} target="_blank">
               <MessageCircle className="h-4 w-4" /> Chat WhatsApp
             </Link>

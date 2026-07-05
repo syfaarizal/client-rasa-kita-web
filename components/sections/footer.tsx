@@ -120,7 +120,7 @@ export function Footer() {
               onChange={(event) => setEmail(event.target.value)}
               placeholder="Masukkan email Anda"
               aria-label="Email untuk newsletter"
-              className="border-white/15 bg-white/10 text-white placeholder:text-white/50"
+              className="border-white/15 bg-white/10 text-white placeholder:text-white/50 border-r-0"
             />
             <Button type="submit" size="icon" aria-label="Kirim">
               <Send className="h-4 w-4" />
