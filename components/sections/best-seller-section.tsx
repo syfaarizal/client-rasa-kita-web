@@ -5,7 +5,10 @@ import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+// Ignore TypeScript complaint about side-effect CSS imports from Swiper
+// @ts-ignore
 import "swiper/css";
+// @ts-ignore
 import "swiper/css/navigation";
 import { getBestSellers } from "@/data/products";
 import { ProductCard } from "@/components/product-card";
