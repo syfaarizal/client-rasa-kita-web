@@ -5,7 +5,6 @@ import Image from "next/image";
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
-// @ts-expect-error Swiper CSS import has no type declarations
 import "swiper/css";
 import { testimonials } from "@/data/testimonials";
 import { StarRating } from "@/components/shared/star-rating";
